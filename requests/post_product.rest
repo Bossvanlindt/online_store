@@ -1,0 +1,10 @@
+POST http://localhost:3001/
+Content-Type: application/json
+
+{
+    "name": "Cotton Socks",
+    "quantity": 73,
+    "price": 7.99,
+    "color": "white",
+    "gender": "F"
+}
