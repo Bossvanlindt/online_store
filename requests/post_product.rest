@@ -8,3 +8,27 @@ Content-Type: application/json
     "color": "white",
     "size": "M"
 }
+
+###
+POST http://localhost:3001/
+Content-Type: application/json
+
+{
+  "name": "Coat",
+  "quantity": 25,
+  "price": 89.99,
+  "color": "blue",
+  "size": "M"
+}
+
+###
+POST http://localhost:3001/
+Content-Type: application/json
+
+{
+  "name": "Hoodie",
+  "quantity": 3,
+  "price": 60.0,
+  "color": "orange",
+  "size": "L"
+}
