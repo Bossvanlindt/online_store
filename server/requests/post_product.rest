@@ -32,3 +32,40 @@ Content-Type: application/json
   "color": "orange",
   "size": "L"
 }
+
+###
+POST http://localhost:3001/
+Content-Type: application/json
+
+{
+  "name": "Stickers",
+  "quantity": 200,
+  "price": 2.99,
+  "color": "white",
+  "size": "S"
+}
+
+###
+POST http://localhost:3001/
+Content-Type: application/json
+
+{
+  "name": "Crop Top",
+  "quantity": 10,
+  "price": 15.00,
+  "color": "white",
+  "size": "L"
+}
+
+###
+POST http://localhost:3001/
+Content-Type: application/json
+
+{
+  "name": "T-Shirt",
+  "quantity": 44,
+  "price": 29.99,
+  "color": "black",
+  "size": "M"
+}
+

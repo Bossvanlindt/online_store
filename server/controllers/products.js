@@ -11,6 +11,13 @@ productsRouter.get("/:id", async (request, response) => {
   return response.json(productWithId);
 });
 
+productsRouter.put("/:id", async (request, response) => {
+  const product = await Product.findById(request.params.id);
+  product.quantity -= 1;
+  product.save();
+  return response.json(product);
+});
+
 productsRouter.post("/", async (request, response) => {
   let productToAdd = request.body;
   if (
